@@ -1,12 +1,10 @@
-import { Londrina_Sketch } from 'next/font/google'
-import Link from 'next/link'
-import React from 'react'
-import Links from './links/Links'
 
+import Links from './links/Links'
+import styles from "./navbar.module.css"
 const Navbar = () => {
   return (
-    <div>
-     <div>Logo</div>
+    <div className={styles.container}>
+     <div className={styles.logo}>Kidventures on the Road</div>
      <div>
      <Links/>
 
